@@ -10,9 +10,9 @@ const submitButton = document.getElementById('btn-submit').addEventListener('cli
     // console.log(email,pass);
 
     if(email === 'aracccount@myaccount.com' && pass === 'Remal323@!!'){
-        console.log('vald');
+        window.location.href='bank.html'
     } else{
-        console.log('en');
+        alert('Please input valid info')
     }
 });
 
