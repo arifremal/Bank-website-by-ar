@@ -9,7 +9,7 @@ const submitButton = document.getElementById('btn-submit').addEventListener('cli
     const pass = pasGet.value
     // console.log(email,pass);
 
-    if(email === 'aracccount@myaccount.com' && pass === 'Remal323@!!'){
+    if(email === 'aracccount@myaccount.com' && pass === 'arifremalemal323@!!'){
         window.location.href='bank.html'
     } else{
         alert('Please input valid info')

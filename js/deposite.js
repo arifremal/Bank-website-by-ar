@@ -3,6 +3,11 @@ document.getElementById('btn-depo').addEventListener('click',function(){
     const depoValue = document.getElementById('deposite')
     const newDepositeAmountString = depoValue.value;
     const newDepositeAmount = parseFloat(newDepositeAmountString)
+    depoValue.value = ''
+    if(isNaN(newDepositeAmount)){
+        alert('please provide a valid input')
+        return
+    }
 
     // console.log(amount);
 
